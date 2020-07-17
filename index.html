@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web worker demo</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Web worker demo</h1>
+    <p>
+      Clicking on 'Add' will invoke a web worker to perform the actual addition
+      and send the result back to this page.
+    </p>
+
+    <input type="text" id="num1" placeholder="0" />
+    <input type="text" id="num2" placeholder="0" />
+    <button id="add-btn">Add</button>
+
+    <p id="result"></p>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
