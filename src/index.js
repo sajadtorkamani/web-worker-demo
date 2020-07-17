@@ -1,4 +1,4 @@
-const addWorker = new Worker('/src/addWorker.js')
+const addWorker = new Worker('src/addWorker.js')
 
 document.querySelector('#add-btn').addEventListener('click', () => {
   const num1 = document.querySelector('#num1').value
